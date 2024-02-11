@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>انشاء حساب جديد</title>
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- start top-header -->
+    <section class="top-header py-2">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-4">
+            <div class="lang text-end d-flex align-items-center">
+              <a class="ar border-start border-secondary ps-1" href="#">عربي</a>
+              <a class="en pe-1" href="#">EN</a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="social text-center">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="contact text-start" dir="ltr">
+              <span>
+                <a class="mx-3 signIn" href="signIn.html">الدخول</a>
+              </span>
+              <span class="px-2">
+                <a class="mx-md-3 regist" href="register.html"
+                  >انشاء حساب جديد</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end top-header -->
+
+    <!-- start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-lg">
+      <div class="container">
+        <a class="navbar-brand m-0" href="#">
+          <img src="assets/images/logo.png" alt="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5">
+            <li class="nav-item">
+              <a class="nav-link active position-relative" href="index.html">الرئيسية</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Donaition.html">عن بنك الدم</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="article.html">المقالات</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="request.html">طلبات التبرع</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link border-0" href="contact.html">اتصل بنا</a>
+            </li>
+          </ul>
+
+          <div>
+            <a class="our-btn our-btn-larg" href="Donaition.html">طلب تبرع</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end Navbar -->
+
+    <!-- start register -->
+    <section class="register py-4">
+      <div class="container">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb p-3 border border-2 bg-white">
+            <li class="breadcrumb-item">
+              <a class="text-secondary active" href="#">الرئيسية</a>
+            </li>
+            <li class="breadcrumb-item active text-dark" aria-current="page">
+              انشاء حساب جديد
+            </li>
+          </ol>
+        </nav>
+
+        <form class="mt-3">
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput1"
+              placeholder="الاسم"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="email"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput2"
+              placeholder="البريد اﻹلكترونى"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="date"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput3"
+              placeholder="تاريخ الميلاد"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput4"
+              placeholder="فصيلة الدم"
+            />
+          </div>
+          <div class="form-group">
+            <select class="form-control form-control-lg">
+              <option selected>المحافظة</option>
+              <option>القاهرة</option>
+              <option>الإسكندرية</option>
+              <option>الدقهلية</option>
+              <option>الغربية</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <select
+              class="form-control form-control-lg"
+              id="exampleFormControlSelect2"
+            >
+              <option selected>المدينة</option>
+              <option>القاهرة</option>
+              <option>الإسكندرية</option>
+              <option>المنصورة</option>
+              <option>المحلة الكبري</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <input
+              type="text"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput5"
+              placeholder="رقم الهاتف"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="date"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput6"
+              placeholder="اخر تاريخ تبرع"
+            />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput7"
+              placeholder="كلمة المرور"
+            />
+          </div>
+          <div class="form-group mb-2">
+            <input
+              type="password"
+              class="form-control form-control-lg"
+              id="exampleFormControlInput8"
+              placeholder="تاكيد كلمة المرور"
+            />
+          </div>
+          <div class="text-center">
+            <button type="submit">إنشاء</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- end register -->
+
+    <!-- start footer -->
+    <footer class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/logo.png" />
+            <h5 class="my-2">بنك الدم</h5>
+            <p>
+              هذا النص هو مثال لنص يمكن ان يستبدل فى نفس المساحة, لقد تم توليد
+              هذا النص من مولد النص العربي, حيث يمكنك ان تولد مثل هذا النص او
+              العديد من النصوص الاخرى إضافة إلى زيادة عدد الحروف التى يولدها
+            </p>
+          </div>
+
+          <div class="col-md-4 px-md-5">
+            <ul class="navbar-nav px-lg-5 my-md-0 my-3">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">الرئيسية</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Donaition.html">عن بنك الدم</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="article.html">المقالات</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="request.html">طلبات التبرع</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">من نحن</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link border-0" href="contact.html">اتصل بنا</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-lg-3 my-3 my-md-0">
+            <h6 class="mb-md-5">متوفر على</h6>
+            <a href="#">
+              <img class="mb-md-4" src="assets/images/google1.png" />
+              <img src="assets/images/ios1.png" />
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-icon">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+              </div>
+            </div>
+
+            <div class="col-md-8">
+              <p>
+                جميع الحقوق محفوظه ل<a>بنك الدم</a>
+                <i class="far fa-copyright"></i> 2024
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- end footer -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
