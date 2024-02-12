@@ -556,6 +556,14 @@ footer .nav-link:hover {
   background: var(--main-color);
   color: #fff;
 }
+
+@media(max-width:768px){
+  .pagination .page-link {
+    color: #000;
+    margin-right: 5px;
+    padding: 12px 15px;
+  }
+}
 /* arctilce-details */
 
 /* about */
