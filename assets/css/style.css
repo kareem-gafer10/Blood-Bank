@@ -44,6 +44,7 @@ img {
   float: none !important;
   padding: 10px;
 }
+
 /* top-header */
 .top-header {
   background-color: var(--main-color);
@@ -67,7 +68,8 @@ img {
   text-decoration: underline;
   font-size: 0.9rem;
 }
-.signIn,.signIn:hover {
+.signIn,
+.signIn:hover {
   color: #cf9935;
   font-size: 0.9rem;
 }
@@ -86,6 +88,9 @@ img {
     border: none !important;
     display: block;
   }
+  /* .top-header .contact span {
+    font-size: 0.3rem;
+  } */
 }
 /* top-header */
 
@@ -125,7 +130,7 @@ img {
 .navbar .our-btn {
   padding: 5px 25px;
 }
-.navbar .our-btn-larg{
+.navbar .our-btn-larg {
   padding: 7px 80px;
   font-size: 1.1rem;
 }
@@ -486,7 +491,11 @@ footer .nav-link:hover {
   border-radius: initial;
   border: 2px solid #d0d1d4;
 }
-
+@media(max-width:768px){
+  .register form{
+    padding: 30px 20px;
+  }
+}
 /* register */
 
 /* signin */
@@ -557,7 +566,7 @@ footer .nav-link:hover {
   color: #fff;
 }
 
-@media(max-width:768px){
+@media (max-width: 768px) {
   .pagination .page-link {
     color: #000;
     margin-right: 5px;
