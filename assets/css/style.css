@@ -81,16 +81,18 @@ img {
     font-size: 0.9rem;
     margin: 0 2px;
   }
+
   .top-header .contact :last-child {
     padding: 0 !important;
   }
   .top-header .contact span {
     border: none !important;
     display: block;
+    font-size: 0.6rem;
   }
-  /* .top-header .contact span {
-    font-size: 0.3rem;
-  } */
+  .regist {
+    font-size: 0.7rem;
+  }
 }
 /* top-header */
 
@@ -491,8 +493,8 @@ footer .nav-link:hover {
   border-radius: initial;
   border: 2px solid #d0d1d4;
 }
-@media(max-width:768px){
-  .register form{
+@media (max-width: 768px) {
+  .register form {
     padding: 30px 20px;
   }
 }
